@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "restaurant_table")
+@Table
 public class TableEntity {
 
     @Id
