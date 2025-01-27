@@ -20,6 +20,13 @@ public class TableEntity {
     @Column(name = "is_available", nullable = false)
     private boolean isAvailable = true; // Availability
 
+    public TableEntity(Long id, String name, int capacity, boolean isAvailable) {
+        this.id = id;
+        this.name = name;
+        this.capacity = capacity;
+        this.isAvailable = isAvailable;
+    }
+
     public Long getId() {
         return id;
     }
